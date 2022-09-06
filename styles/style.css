@@ -71,12 +71,17 @@
 }
 
 .main-image {
-    transition: all 0.3s;
-    height: 100%;
+    transition: all 0.2s;
+    width: 260px;
+    height: 260px;
+    background-image: url("https://i1.sndcdn.com/artworks-000508537761-v4g8zu-t500x500.jpg");
+    background-size: 100%;
 }
 
-.main-image:hover {
-    opacity: 0;
+.main-image:hover {  
+    background-image: url("https://c.tenor.com/2sk4UqEm15gAAAAd/judgementcut.gif");
+    background-position-x: -95px;
+    background-size: 180%;
 }
 
 .main-gif {
@@ -87,6 +92,13 @@
     margin-left: 32px;
     margin-right: 32px;
     text-align: center;
+}
+
+.stats-container {
+    margin: 1px;
+    padding: 12px 12px;
+    border-radius: 16px;
+    box-shadow: 0 0 12px rgb(104, 144, 255);
 }
 
 p.about {
