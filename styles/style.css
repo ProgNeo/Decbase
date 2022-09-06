@@ -59,3 +59,49 @@
     color:white;
     box-shadow: 0 0 30px white;
 }
+.main-image-wrapper {
+    width: 250px; 
+    height: 250px; 
+    border: 4px solid rgb(154, 184, 248);
+    box-shadow: 100px rgb(3, 49, 255);
+    margin: 8px;
+    box-shadow: 0 0 16px rgb(104, 144, 255);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main-image {
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.main-image:hover {
+    opacity: 0;
+}
+
+.main-gif {
+    height: 100%;
+}
+
+.description {
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: center;
+}
+
+p.about {
+    text-align: center;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    font-size:larger;
+    padding-top: 16px;
+    max-width: 550px;
+}
+
+.stats {
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    font-size:larger;
+    flex-grow: 0; 
+    flex-basis: auto;
+}
