@@ -3,9 +3,11 @@
     margin-bottom: 0.5rem;
     margin: 0.25rem;
     padding: 0.5rem; 
+}
+.block.center {
+    text-align: center;
     flex-grow: 1;
     flex-basis: 0;
-    text-align: center;
 }
 .block.fish {
     background: rgb(170, 255, 255);
@@ -19,4 +21,14 @@
 }
 .row {
     display: flex;
+}
+.column { 
+    height: 200px;
+    flex-basis: 200px;
+    background-color: rgb(255, 197, 37);
+    margin: 0.5rem;
+    padding: 0.5rem; 
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
 }
