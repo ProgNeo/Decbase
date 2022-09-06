@@ -1,25 +1,43 @@
 .first {
     text-align: center;
-    padding: 8px 16px;
-    margin: 8px;
-    border: 1px solid black;
     background: rgb(231, 231, 231);
 }
 .second {
     text-align: right;
-    padding: 8px 16px;
-    margin: 8px;
-    border: 3px solid rgb(255, 0, 242);
     background: linear-gradient(90deg, #ffb7ef, #e66aff);
     width: 500px;
 }
 .third {
     text-align: left;
-    padding: 8px 16px;
-    margin: 8px;
-    border: 5px solid rgb(76, 0, 255);
     background: rgb(193, 166, 255);
     width: 50%;
+}
+.first .adjective {
+    background: white;
+}
+.first.bordered {
+    margin: 16px 0;
+    border: 1px solid black;
+}
+.second .adjective {
+    background: rgb(255, 210, 249);
+}
+.second.bordered {
+    margin: 16px 0;
+    border: 3px solid rgb(255, 0, 242);
+}
+.third .adjective {
+    background: rgb(230, 200, 255);
+}
+.third.bordered {
+    margin: 16px 0;
+    border: 5px solid rgb(76, 0, 255);
+}
+.bordered {
+    margin: 1px;
+    padding: 1px 4px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px grey;
 }
 .name {
     padding: 3px 6px;
@@ -31,10 +49,6 @@
 }
 .adjective {
     background: rgb(234, 208, 255);
-    margin: 1px;
-    padding: 1px 4px;
-    border-radius: 8px;
-    box-shadow: 0 0 8px grey;
     transition: all 0.3s;
 }
 .adjective:hover {
