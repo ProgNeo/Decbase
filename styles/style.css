@@ -1,147 +1,103 @@
-.first {
-    text-align: center;
-    background: rgb(231, 231, 231);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+img.logo {
+    margin: 34px;
 }
-.second {
-    text-align: right;
-    background: linear-gradient(90deg, #ffb7ef, #e66aff);
-    width: 500px;
+
+a.nav {
+    color: rgb(2, 2, 2);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    margin: 0px 10px;
 }
-.third {
-    text-align: left;
-    background: rgb(193, 166, 255);
-    width: 50%;
+
+a.nav.active {
+    color: rgb(112, 112, 112);
 }
-.first .adjective {
-    background: white;
+
+a.nav:link {
+    text-decoration: none;
 }
-.first.bordered {
-    margin: 16px 0;
-    border: 1px solid black;
-}
-.second .adjective {
-    background: rgb(255, 210, 249);
-}
-.second.bordered {
-    margin: 16px 0;
-    border: 3px solid rgb(255, 0, 242);
-}
-.third .adjective {
-    background: rgb(230, 200, 255);
-}
-.third.bordered {
-    margin: 16px 0;
-    border: 5px solid rgb(76, 0, 255);
-}
-.bordered {
-    margin: 1px;
-    padding: 1px 4px;
-    border-radius: 8px;
-    box-shadow: 0 0 8px grey;
-}
-.name {
-    padding: 3px 6px;
-    margin: 1px;
+
+a.login {
     color: white;
-    background: blueviolet;
-    border-radius: 4px;
-    display: inline-block;
-}
-.adjective {
-    background: rgb(234, 208, 255);
-    transition: all 0.3s;
-}
-.adjective:hover {
-    background: rgb(141, 22, 238);
-    cursor: pointer;
-    border-width: 4px;
-    padding: 6px;
-    color:white;
-    box-shadow: 0 0 30px white;
-}
-.main-image-wrapper {
-    width: 250px; 
-    height: 250px; 
-    border: 4px solid rgb(154, 184, 248);
-    box-shadow: 100px rgb(3, 49, 255);
-    margin: 8px;
-    box-shadow: 0 0 16px rgb(104, 144, 255);
-    border-radius: 50%;
-    overflow: hidden;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding: 3px 20px;
+    margin: 0px 10px;
+    align-self: center;
+    border: 3px solid rgba(202, 168, 146, 1);
 }
 
-.main-image {
-    transition: all 0.2s;
-    width: 260px;
-    height: 260px;
-    background-image: url("https://i1.sndcdn.com/artworks-000508537761-v4g8zu-t500x500.jpg");
-    background-size: 100%;
+a.login:link {
+    text-decoration: none;
+    background: rgba(202, 168, 146, 1);
 }
 
-.main-image:hover {  
-    background-image: url("https://c.tenor.com/2sk4UqEm15gAAAAd/judgementcut.gif");
-    background-position-x: -95px;
-    background-size: 180%;
+a.contact {
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding: 3px 20px;
+    margin: 0px 10px;
+    align-self: center;
+    border: 3px solid rgba(55, 128, 107, 1);
 }
 
-.main-gif {
-    height: 100%;
+a.contact:link {
+    text-decoration: none;
+    background: rgba(55, 128, 107, 1);
 }
 
-.description {
-    margin-left: 32px;
-    margin-right: 32px;
-    text-align: center;
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
-}
 
-.stats-container {
-    margin: 1px;
-    padding: 12px 12px;
-    border-radius: 16px;
-    box-shadow: 0 0 12px rgb(104, 144, 255);
-    display: flex;
-}
-
-p.about {
-    text-align: center;
-    font-style: italic;
-    font-family: 'EB Garamond', serif;
-    font-size:larger;
-    padding-top: 16px;
-    max-width: 550px;
-}
-
-.stats {
-    font-style: italic;
-    font-family: 'EB Garamond', serif;
-    font-size:larger;
-    flex-grow: 0; 
-    flex-basis: auto;
+.ad {
+    margin-bottom: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 .title {
-    font-size: 2em; 
-    font-family: 'Noto Serif JP', serif; 
-    text-shadow: 0 0 8px rgb(114, 114, 114);
+    margin-bottom: 23px;
+    font-size: 72px;
+    line-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
 }
 
-.subtitle {
-    font-size: 1em; 
-    font-family: 'Noto Serif JP', serif; 
-    text-shadow: 0 0 1px rgb(136, 135, 135);
+.description {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 28px;
 }
 
-.container {
-    justify-content: center; 
-    margin: 24px;
-    padding: 12px;
+.bordered {
+    margin: 1px;
+    padding: 1px 4px;
+    border-radius: 15px 0px ;
 }
 
-.avatar-container {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
+.image-bordered {
+    margin: 1px;
+    padding: 1px 4px;
+    border-radius: 20% 0px;
+}
+
+.block-image {
+    width: 550px;
+    height: 475px;
+    position: absolute;
+}
+
+.image-background {
+    width: 550px;
+    height: 475px;
+    border-radius: 20% 0px;
+    margin-top: 33px;
+    margin-left: 35px;
+    border: 3px solid rgba(202, 168, 146, 1);
 }
