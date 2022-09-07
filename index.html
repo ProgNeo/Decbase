@@ -11,11 +11,11 @@
 </head>
 <body>
     <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-            <a href="/" class="d-flex mb-3 mb-md-0 me-md-auto">
-                <img src="images/logo.png" class="logo">
+        <header class="header d-flex flex-wrap justify-content-center">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <img class="bi" src="images/logo.png">
             </a>
-            <ul class="nav nav-pills align-content-center">
+            <ul class="nav nav-pills align-content-center justify-content-center">
                 <li><a class="nav active" href="">HOME</a></li>
                 <li><a class="nav" href="">PROJECT</a></li>
                 <li><a class="nav" href="">SERVICES</a></li>
@@ -29,18 +29,95 @@
             </a>
         </header>
         <main>
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img class="block-image image-bordered" src="images/first.png" alt="">
-                    <div class="image-background"></div>
+            <div class="first-block">
+                <div class="row flex-lg-row-reverse align-items-center g-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img class="d-block mx-lg-auto img-fluid" src="images/first.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <div class="ad">MODERN INTREIOR</div>
+                        <div class="title">Create Your Interior Design.</div>
+                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
+                        <a href="/" class="contact bordered">
+                            CONTACT
+                        </a>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="ad">MODERN INTREIOR</div>
-                    <div class="title">Create Your Interior Design.</div>
-                    <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
-                    <a href="/" class="contact bordered">
-                        CONTACT
-                    </a>
+            </div>
+            <div class="second-block">
+                <div class="ad">WHAT WE DO</div>
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="block-title">Our Service</div>
+                    <div class="circles d-flex">
+                        <div class="circle-white me-3">
+                            <img src="images/arrow-left.svg" alt=""></div>
+                        <div class="circle-green">
+                            <img src="images/arrow-right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-xxl-3 justify-content-between">
+                    <div class="col card-block">
+                        <div class="d-flex flex-row card-white">
+                            <img class="card-icon" src="images/interior.svg" alt="">
+                            <div>
+                                <div class="card-title">Interior Design</div>
+                                <div class="card-text">Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col card-block">
+                        <div class="d-flex flex-row card-brown">
+                            <img class="card-icon" src="images/acchitecture.svg" alt="">
+                            <div>
+                                <div class="card-title">Architecture</div>
+                                <div class="card-text">Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col card-block">
+                        <div class="flex-row card-white d-none d-xxl-flex">
+                            <img class="card-icon" src="images/palnning.svg" alt="">
+                            <div>
+                                <div class="card-title">Planning</div>
+                                <div class="card-text">Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="third-block">
+                <div class="row flex-lg-row align-items-center g-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img class="d-block mx-lg-auto img-fluid" src="images/second.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <div class="ad">ABOUT US</div>
+                        <div class="block-title">Interioris The Will of An Epoch Mextreo</div>
+                        <div class="description">There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form injected
+                            humour, or randomised words which don't look even slightly
+                            believable.If you are going to use a passage of Lorem Ipsum,
+                            sure there isn't anything embarrassing hidden the middleof text.
+                            All the Lorem Ipsum generators on the Internettend to repeat
+                            predefined chunks as necessary,making this the first true
+                            generator on the Internet.</div>
+                        <a href="/" class="contact bordered">
+                            LEARN MORE
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="fourth-block">
+                <div class="row flex-lg-row-reverse align-items-center g-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img class="d-block mx-lg-auto img-fluid" src="images/third.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img class="d-block img-fluid" src="images/wooden_twenty.png" alt="">
+                        <div class="block-title my-35">Years Of Successful Working The Market</div>
+                        <a href="/" class="contact bordered">LEARN MORE</a>
+                    </div>
                 </div>
             </div>
         </main>
