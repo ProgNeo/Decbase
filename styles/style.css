@@ -115,7 +115,7 @@ a.contact:link {
     margin: 15px 0px;
 }
 
-img.card-icon {
+#card-icon {
     height: 40px;
     width: 40px;
     margin-right: 20px;
@@ -137,15 +137,62 @@ img.card-icon {
     letter-spacing: -0.01em;
 }
 
+.client-card {
+    width: 571px;
+    padding: 33px 35px 60px 102px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+    border-radius: 60px 0px;
+    margin-bottom: 25px;
+}
+
+#client-avatar {
+    margin-top: 33px;
+    margin-right: -65px;
+    object-fit: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.client-name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.client-workspace {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    align-self: center;
+    color: rgb(100, 100, 100);
+}
+
+.client-review {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    text-align: left;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+}
+
+#quotation {
+    height: 33px;
+    width: 33px;
+}
+
 .circles {
     margin-right: 7px;
+}
+
+.circles-second {
+    margin-bottom: 85px;
 }
 
 .circle-green {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: rgba(55, 128, 107, 1);
+    background: rgb(55, 128, 107);
     box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
     color: white;
@@ -173,9 +220,22 @@ img.card-icon {
 }
 
 .fourth-block {
-    margin-bottom: 224px;
+    margin-bottom: 163px;
+}
+
+.fifth-block {
+    margin-bottom: 183px;
+    text-align: center;
 }
 
 .my-35 {
     margin: 35px 0px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
 }
