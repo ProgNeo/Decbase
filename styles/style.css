@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
 .header {
-    margin-top: 34px;
-    margin-bottom: 94px;
+    padding-top: 34px;
+    padding-bottom: 94px;
 }
 
 a.nav {
@@ -11,6 +11,7 @@ a.nav {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
     padding: 10px;
     margin: 0px 5px;
 }
@@ -54,23 +55,22 @@ a.contact:link {
     background: rgba(55, 128, 107, 1);
 }
 
-.ad {
-    font-family: 'Open Sans', sans-serif;
+.subtitle {
+    font-family: 'Poppins';
     font-size: 20px;
     font-weight: 600;
+    text-transform: uppercase;
     color: rgb(100, 100, 100);
 }
 
-.title {
-    margin-bottom: 23px;
+.title-bold {
     font-size: 72px;
     line-height: 100%;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 
-.block-title {
-    margin-bottom: 50px;
+.title-medium {
     font-size: 48px;
     line-height: 100%;
     font-family: 'Poppins', sans-serif;
@@ -81,12 +81,13 @@ a.contact:link {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
-    margin-bottom: 28px;
+    margin: 26px 0px;
+
 }
 
 .bordered {
     padding: 1px 4px;
-    border-radius: 20px 0px ;
+    border-radius: 20px 0px;
 }
 
 .image-bordered {
@@ -207,43 +208,47 @@ a.contact:link {
     text-align: center;
 }
 
-.first-block {
+.modern-interior {
     margin-bottom: 115px;
 }
 
-.second-block {
+.what-we-do {
     margin-bottom: 189px;
 }
 
-.third-block {
+.about-us {
     margin-bottom: 224px;
 }
 
-.fourth-block {
+.twenty-years {
     margin-bottom: 163px;
 }
 
-.fifth-block {
+.clients-reviews {
     margin-bottom: 183px;
     text-align: center;
 }
 
 .latest-news {
     padding-top: 93px;
-    padding-bottom: 123px;
+    padding-bottom: 113px;
     background-color: rgba(248, 248, 248, 1);
     text-align: center;
+    background-size: 100%;
 }
 
 .news-image {
     padding-bottom: 44px;
+    max-width: 570px;
 }
 
 .news-title {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 30px;
     padding-bottom: 17px;
+    line-height: 28px;
+    text-align: start;
 }
 
 .news-text {
@@ -253,18 +258,32 @@ a.contact:link {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
+    text-align: start;
 }
 
 .news-button {
-    
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: regular;
+    padding: 5px 28px;
+    align-self: center;
+    border: 3px solid rgba(55, 128, 107, 1);
+    background: rgba(55, 128, 107, 1);
+    align-self: flex-start;
+}
+
+.news-button:link {
+    text-decoration: none;
 }
 
 .my-35 {
     margin: 35px 0px;
 }
 
-.mb-21 {
-    margin-bottom: 15px;
+.mb-82 {
+    margin-bottom: 82px;
 }
 
 .mb-15 {
