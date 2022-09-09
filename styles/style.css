@@ -228,8 +228,43 @@ a.contact:link {
     text-align: center;
 }
 
+.latest-news {
+    padding-top: 93px;
+    padding-bottom: 123px;
+    background-color: rgba(248, 248, 248, 1);
+    text-align: center;
+}
+
+.news-image {
+    padding-bottom: 44px;
+}
+
+.news-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 17px;
+}
+
+.news-text {
+    padding-bottom: 44px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.news-button {
+    
+}
+
 .my-35 {
     margin: 35px 0px;
+}
+
+.mb-21 {
+    margin-bottom: 15px;
 }
 
 .mb-15 {
