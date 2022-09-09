@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 .header {
     padding-top: 34px;
@@ -35,6 +36,12 @@ a.login {
     border: 3px solid rgba(202, 168, 146, 1);
 }
 
+a.login:hover {
+    background: rgba(55, 128, 107, 1);
+    border: 3px solid rgba(55, 128, 107, 1);
+    transition: all 0.3s;
+}
+
 a.login:link {
     text-decoration: none;
     background: rgba(202, 168, 146, 1);
@@ -54,6 +61,15 @@ a.contact:link {
     text-decoration: none;
     background: rgba(55, 128, 107, 1);
 }
+
+
+a.contact:hover {
+    border: 3px solid rgba(202, 168, 146, 1);
+    background: rgba(202, 168, 146, 1);
+    transition: 0.3s;
+    color: white;
+}
+
 
 .subtitle {
     font-family: 'Poppins';
@@ -82,7 +98,6 @@ a.contact:link {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     margin: 26px 0px;
-
 }
 
 .bordered {
@@ -189,23 +204,18 @@ a.contact:link {
     margin-bottom: 85px;
 }
 
-.circle-green {
+.circle {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: rgb(55, 128, 107);
+    background-color: rgba(202, 168, 146, 1);
     box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
-    color: white;
 }
 
-.circle-white {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: rgb(255, 255, 255);
-    box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
-    text-align: center;
+.circle:hover {
+    background-color: rgb(55, 128, 107);
+    transition: all 0.3s;
 }
 
 .modern-interior {
@@ -235,6 +245,12 @@ a.contact:link {
     background-color: rgba(248, 248, 248, 1);
     text-align: center;
     background-size: 100%;
+}
+
+.sign-up-form {
+    padding-top: 207px;
+    padding-bottom: 192px;
+    text-align: center;
 }
 
 .news-image {
@@ -274,8 +290,112 @@ a.contact:link {
     align-self: flex-start;
 }
 
-.news-button:link {
+.news-button:hover {
+    border: 3px solid rgba(202, 168, 146, 1);
+    background: rgba(202, 168, 146, 1);
+    transition: 0.3s;
+    color: white;
+}
+
+a.news-button:link {
     text-decoration: none;
+}
+
+.line {
+    border: 1px solid #C4C4C4;
+    margin: 40px 0px;
+    align-self: center;
+}
+
+.sign-up-description {
+    max-width: 640px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 29px;
+    align-self: center;
+}
+
+.sign-up-field {
+    height: 50px;
+    max-width: 770px;
+    background-color: rgba(238, 238, 238, 1);
+    align-self: center;
+    padding-left: 27px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.sign-up-input {
+    height: 50px;
+    max-width: 592px;
+    border: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgba(100, 100, 100, 1);
+    background-color: rgba(238, 238, 238, 1);
+}
+
+a.subscribe-button {
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: regular;
+    padding: 10px 28px;
+    align-self: center;
+    border: 3px solid rgba(55, 128, 107, 1);
+    background: rgba(55, 128, 107, 1);
+    border-radius: 0px 0px 20px 0px;
+    align-self: center;
+}
+
+a.subscribe-button:link {
+    text-decoration: none;
+}
+
+a.subscribe-button:hover {
+    border: 3px solid rgba(202, 168, 146, 1);
+    background: rgba(202, 168, 146, 1);
+    transition: 0.3s;
+    color: white;
+}
+
+footer {
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.footer-title {
+    color: rgba(33, 33, 33, 1);
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.footer-link {
+    color: rgba(100, 100, 100, 1);
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a.footer-link:link {
+    text-decoration: none;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    
+    background-color: rgba(213, 213, 213, 1);
+    border-radius: 50%;
+}
+
+.social-link:hover {
+    background-color: rgba(55, 128, 107, 1);
+    transition: all 0.3s;
 }
 
 .my-35 {
